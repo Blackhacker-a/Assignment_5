@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    
+    do{
+
 	    printf("Nhap so a nguyen  \n");
     	scanf("%d",&a);
     	printf("Nhap so b nguyen \n");
     	scanf("%d",&b);
-    	
+    } while (a==0 or b==0);    	
    
     while(a!=b){
     	if(a<0){
